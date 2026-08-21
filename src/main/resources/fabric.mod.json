@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "infinix-visual",
+  "version": "${version}",
+  "name": "Infinix Visual",
+  "description": "Кастомное меню в чёрном стиле.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/infinix-visual/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.infinix.visual.InfinixVisual"],
+    "client": ["com.infinix.visual.client.InfinixVisualClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
